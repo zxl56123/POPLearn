@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921CFCB21DC74BD80032D13C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CFCB11DC74BD80032D13C /* main.m */; };
+		921CFCB51DC74BD80032D13C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CFCB41DC74BD80032D13C /* AppDelegate.m */; };
+		921CFCB81DC74BD80032D13C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CFCB71DC74BD80032D13C /* ViewController.m */; };
+		921CFCBB1DC74BD80032D13C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921CFCB91DC74BD80032D13C /* Main.storyboard */; };
+		921CFCBD1DC74BD80032D13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921CFCBC1DC74BD80032D13C /* Assets.xcassets */; };
+		921CFCC01DC74BD80032D13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921CFCBE1DC74BD80032D13C /* LaunchScreen.storyboard */; };
+		921CFCC81DC74C4D0032D13C /* libpop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921CFCC71DC74C4D0032D13C /* libpop.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		295C637C2F40E3EF1632A2ED /* Pods-POPLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPLearn/Pods-POPLearn.release.xcconfig"; sourceTree = "<group>"; };
+		33ED8CCA52558949C4D65F88 /* Pods-POPLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPLearn/Pods-POPLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		921CFCAD1DC74BD80032D13C /* POPLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921CFCB11DC74BD80032D13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921CFCB31DC74BD80032D13C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		921CFCB41DC74BD80032D13C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		921CFCB61DC74BD80032D13C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		921CFCB71DC74BD80032D13C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		921CFCBA1DC74BD80032D13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		921CFCBC1DC74BD80032D13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921CFCBF1DC74BD80032D13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		921CFCC11DC74BD80032D13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921CFCC71DC74C4D0032D13C /* libpop.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpop.a; path = "../../../Library/Developer/Xcode/DerivedData/POPLearn-ganjefpyjbmgdpcvlbjptvpmfbgj/Build/Products/Debug-iphoneos/pop/libpop.a"; sourceTree = "<group>"; };
+		921CFCC91DC74C510032D13C /* libPods-POPLearn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-POPLearn.a"; path = "Pods/../build/Debug-iphoneos/libPods-POPLearn.a"; sourceTree = "<group>"; };
+		A8D75434FBD233AABC5CA1CE /* libPods-POPLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POPLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921CFCAA1DC74BD80032D13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921CFCC81DC74C4D0032D13C /* libpop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FDCA9891E955078D4991BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921CFCC91DC74C510032D13C /* libPods-POPLearn.a */,
+				921CFCC71DC74C4D0032D13C /* libpop.a */,
+				A8D75434FBD233AABC5CA1CE /* libPods-POPLearn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921CFCA41DC74BD80032D13C = {
+			isa = PBXGroup;
+			children = (
+				921CFCAF1DC74BD80032D13C /* POPLearn */,
+				921CFCAE1DC74BD80032D13C /* Products */,
+				F701B829E446BB99E2F45432 /* Pods */,
+				6FDCA9891E955078D4991BC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		921CFCAE1DC74BD80032D13C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921CFCAD1DC74BD80032D13C /* POPLearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921CFCAF1DC74BD80032D13C /* POPLearn */ = {
+			isa = PBXGroup;
+			children = (
+				921CFCB31DC74BD80032D13C /* AppDelegate.h */,
+				921CFCB41DC74BD80032D13C /* AppDelegate.m */,
+				921CFCB61DC74BD80032D13C /* ViewController.h */,
+				921CFCB71DC74BD80032D13C /* ViewController.m */,
+				921CFCB91DC74BD80032D13C /* Main.storyboard */,
+				921CFCBC1DC74BD80032D13C /* Assets.xcassets */,
+				921CFCBE1DC74BD80032D13C /* LaunchScreen.storyboard */,
+				921CFCC11DC74BD80032D13C /* Info.plist */,
+				921CFCB01DC74BD80032D13C /* Supporting Files */,
+			);
+			path = POPLearn;
+			sourceTree = "<group>";
+		};
+		921CFCB01DC74BD80032D13C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921CFCB11DC74BD80032D13C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F701B829E446BB99E2F45432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33ED8CCA52558949C4D65F88 /* Pods-POPLearn.debug.xcconfig */,
+				295C637C2F40E3EF1632A2ED /* Pods-POPLearn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921CFCAC1DC74BD80032D13C /* POPLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921CFCC41DC74BD80032D13C /* Build configuration list for PBXNativeTarget "POPLearn" */;
+			buildPhases = (
+				9FE55981BD783F39D60FADE3 /* [CP] Check Pods Manifest.lock */,
+				921CFCA91DC74BD80032D13C /* Sources */,
+				921CFCAA1DC74BD80032D13C /* Frameworks */,
+				921CFCAB1DC74BD80032D13C /* Resources */,
+				9BC0B900C6C07970B20FB4F0 /* [CP] Embed Pods Frameworks */,
+				FAD255504F8AE87B49547BC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POPLearn;
+			productName = POPLearn;
+			productReference = 921CFCAD1DC74BD80032D13C /* POPLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921CFCA51DC74BD80032D13C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "郑晓龙";
+				TargetAttributes = {
+					921CFCAC1DC74BD80032D13C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9KXYK78MW8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 921CFCA81DC74BD80032D13C /* Build configuration list for PBXProject "POPLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921CFCA41DC74BD80032D13C;
+			productRefGroup = 921CFCAE1DC74BD80032D13C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921CFCAC1DC74BD80032D13C /* POPLearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921CFCAB1DC74BD80032D13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921CFCC01DC74BD80032D13C /* LaunchScreen.storyboard in Resources */,
+				921CFCBD1DC74BD80032D13C /* Assets.xcassets in Resources */,
+				921CFCBB1DC74BD80032D13C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BC0B900C6C07970B20FB4F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POPLearn/Pods-POPLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE55981BD783F39D60FADE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD255504F8AE87B49547BC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POPLearn/Pods-POPLearn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921CFCA91DC74BD80032D13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921CFCB81DC74BD80032D13C /* ViewController.m in Sources */,
+				921CFCB51DC74BD80032D13C /* AppDelegate.m in Sources */,
+				921CFCB21DC74BD80032D13C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		921CFCB91DC74BD80032D13C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921CFCBA1DC74BD80032D13C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		921CFCBE1DC74BD80032D13C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921CFCBF1DC74BD80032D13C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921CFCC21DC74BD80032D13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		921CFCC31DC74BD80032D13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921CFCC51DC74BD80032D13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33ED8CCA52558949C4D65F88 /* Pods-POPLearn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KXYK78MW8;
+				INFOPLIST_FILE = POPLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzlearn.POPLearn.1212;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		921CFCC61DC74BD80032D13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295C637C2F40E3EF1632A2ED /* Pods-POPLearn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KXYK78MW8;
+				INFOPLIST_FILE = POPLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzlearn.POPLearn.1212;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921CFCA81DC74BD80032D13C /* Build configuration list for PBXProject "POPLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921CFCC21DC74BD80032D13C /* Debug */,
+				921CFCC31DC74BD80032D13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921CFCC41DC74BD80032D13C /* Build configuration list for PBXNativeTarget "POPLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921CFCC51DC74BD80032D13C /* Debug */,
+				921CFCC61DC74BD80032D13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921CFCA51DC74BD80032D13C /* Project object */;
+}
